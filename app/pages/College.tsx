@@ -11,7 +11,7 @@ export default function College() {
     <div className="slideshow">
       <SlideShow />
     </div>
-    <div className="relative about z-40 w-[90%] mx-auto">
+    <div className="relative z-40 mx-auto">
         <About />
     </div>
     <div className="my-5">
