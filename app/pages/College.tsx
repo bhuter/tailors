@@ -1,5 +1,6 @@
 import SlideShow from "../comps/effect/slideShow";
 import About from "../comps/home/about";
+import WhyChooseUS from "../comps/home/WhyChoose";
 
 export default function College() {
   return (
@@ -12,6 +13,9 @@ export default function College() {
     </div>
     <div className="relative about z-40 w-[90%] mx-auto">
         <About />
+    </div>
+    <div className="my-5">
+      <WhyChooseUS />
     </div>
    </div>
   );
