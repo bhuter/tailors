@@ -35,7 +35,7 @@ const WhyChooseUS = () => {
         </div>
       </div>
       {/* Background Image */}
-      <div className="w-full h-[150vh] sm:h-[90vh] md:h-[70vh] lg:h-[80vh]">
+      <div className="w-full h-[130vh] sm:h-[90vh] md:h-[70vh] lg:h-[80vh]">
         <div className="relative w-full h-full">
           <Image
             src="/imgs/slides/s4.jpg"

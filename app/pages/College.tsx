@@ -1,5 +1,8 @@
 import SlideShow from "../comps/effect/slideShow";
 import About from "../comps/home/about";
+import Gallery from "../comps/home/Gallery";
+import Testimonials from "../comps/home/Testimonials";
+import Updates from "../comps/home/UpdatesCount";
 import WhyChooseUS from "../comps/home/WhyChoose";
 
 export default function College() {
@@ -16,6 +19,15 @@ export default function College() {
     </div>
     <div className="my-5">
       <WhyChooseUS />
+    </div>
+    <div className="my-6">
+      <Gallery />
+    </div>
+    <div className="updates">
+      <Updates />
+    </div>
+    <div className="testmonials">
+      <Testimonials />
     </div>
    </div>
   );

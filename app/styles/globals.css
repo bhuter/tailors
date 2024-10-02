@@ -246,4 +246,20 @@ footer .container {
           min-width: 16%; /* Six items per row on extra-large screens */
       }
   }
+  .zigzag {
+    clip-path: polygon(
+      0% 0%, 10% 100%, 20% 0%, 30% 100%, 40% 0%, 50% 100%, 
+      60% 0%, 70% 100%, 80% 0%, 90% 100%, 100% 0%
+    );
+    border-radius: 15px; /* Rounds each zig */
+    background-color: #ffefe5; /* Optional background color */
+  }
+  
+  @media (max-width: 768px) {
+    .zigzag {
+      clip-path: polygon(
+        0% 0%, 15% 100%, 30% 0%, 45% 100%, 60% 0%, 75% 100%, 90% 0%, 100% 100%
+      );
+    }
+  }
   
