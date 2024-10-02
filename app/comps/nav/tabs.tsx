@@ -11,7 +11,7 @@ const Tabs = () => {
           <span>Schools</span>
         </Link>
         <Link href="" className="px-3 py-2 text-md text-slate-800 hover:text-orange-400 transition-colors duration-300">
-          <span>Products & Design</span>
+          <span>Plans & Calendar</span>
         </Link>
         <Link href="" className="px-3 py-2 text-md text-slate-800 hover:text-orange-400 transition-colors duration-300">
           <span>Testimonials</span>

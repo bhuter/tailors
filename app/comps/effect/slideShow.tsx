@@ -25,8 +25,8 @@ const SlideShow: NextPage = () => {
         <p className="text-sm md:text-md lg:text-md transform-cpu text-center px-4">
           Together We Can Prosper
         </p>
-        <Link href="/about" className="mt-4 text-sm md:text-md lg:text-md rounded-lg bg-green-500 p-2 md:p-3 lg:p-4 px-4 md:px-5 bg-opacity-30">
-          Learn More About Us
+        <Link href="/about" className="mt-4 text-sm md:text-md lg:text-md rounded-lg bg-orange-500 p-2 md:p-3 lg:p-4 px-4 md:px-5 bg-opacity-40">
+          Start Application Now
         </Link>
       </div>
 
